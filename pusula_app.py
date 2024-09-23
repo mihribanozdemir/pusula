@@ -18,7 +18,7 @@ def get_raw_data():
     """
     This function returns a pandas DataFrame with the raw data.
     """
-    raw_df = pd.read_excel('datasets/side_effect_data.xlsx')
+    raw_df = pd.read_csv('datasets/side_effect_data.csv')
     return raw_df
 
 def get_cleaned_data():
