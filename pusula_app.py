@@ -6,10 +6,6 @@ import pandas as pd
 
 import seaborn as sns
 from matplotlib import pyplot as plt
-
-from PIL import Image
-import pickle
-import joblib
 from sklearn.pipeline import Pipeline
 
 st.set_page_config(
